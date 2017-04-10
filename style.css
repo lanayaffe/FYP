@@ -1,0 +1,237 @@
+* {
+    font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    border-bottom: 2px solid #eee;
+}
+
+#main-content {
+    padding: 10px;
+    background: #f7f7f7;
+    width: 100%;
+    text-align: center;
+}
+
+/* CONNECT BUTTONS */
+
+#facebook_connect, #twitter_connect, #linkedin_connect, #instagram_connect {
+    padding: 10px;
+}
+
+#social-connect {
+    margin: 20px 0px;
+}
+
+/* FACEBOOK */
+
+button.zocial.facebook {
+    background: none;
+    background-image: url(img/facebook.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* TWITTER */
+
+button.zocial.twitter { 
+    background: none;
+    background-image: url(img/twitter.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* LINKEDIN */
+
+button.zocial.linkedin {
+    background: none;
+    background-image: url(img/linkedin.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* INSTAGRAM */
+
+button.zocial.instagram {
+    background: none;
+    background-image: url(img/instagram.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* DONE BTN */
+
+button.done {
+    padding: 10px 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #91d3e2;
+    color: white;
+}
+
+/*SEARCH BAR*/
+
+#search-bar {
+    float: right;
+    padding: 0px;
+}
+
+.search-input {
+    margin: 0;
+    width: 100px;
+    padding: 5px 5px;
+    font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
+    font-size: 12px;
+    color:#666;
+    background: #f7f7f7;
+    border:2px solid #333; 
+    border-right:0px;
+    border-radius: 30px;
+}
+
+.search-btn {
+    width: 20px;
+    margin: 0;
+    font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
+    cursor: pointer;
+}
+
+/* NAV MENU */
+
+.col-4 {
+    width: 25%;
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#menu-nav {
+    background: #f7f7f7;
+    width: 100%;
+    position: fixed;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* FACEBOOK */
+
+.col-1 {
+    width: 22%;
+    display: inline-block;
+    text-align: left;
+}
+
+.col-9 {
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    float: right;
+}
+
+.facebook-post {
+    background: #3b5998;
+    width: 100%;
+    padding: 25px;
+    height: 550px;
+}
+
+.facebook-icon {
+    width: 100px;
+}
+
+h2 {
+    color: white;
+}
+
+.post {
+    background: white;
+    height: 500px;
+}
+
+/* TWITTER */
+
+.col-1 {
+    width: 22%;
+    display: inline-block;
+    text-align: left;
+}
+
+.col-9 {
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    float: right;
+}
+
+.twitter-post {
+    background: #1da1f2;
+    width: 100%;
+    padding: 25px;
+    height: 550px;
+}
+
+.twitter-icon {
+    width: 100px;
+}
+
+h2 {
+    color: white;
+}
+
+/* ADVERTS */
+
+.col-1 {
+    width: 22%;
+    display: inline-block;
+    text-align: left;
+}
+
+.col-9 {
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    float: right;
+}
+
+.ad-post {
+    background: #f7f7f7;
+    width: 100%;
+    padding: 25px;
+    height: 550px;
+}
