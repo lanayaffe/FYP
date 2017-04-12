@@ -4,32 +4,125 @@
 }
 
 header {
-    height: 140px;
+    height: 50px;
     border-bottom: 2px solid #eee;
+}
+
+#main-content {
+    padding: 10px;
+    background: #f7f7f7;
+    width: 100%;
+    text-align: center;
+}
+
+/* CONNECT BUTTONS */
+
+#facebook_connect, #twitter_connect, #linkedin_connect, #instagram_connect {
+    padding: 10px;
+}
+
+#social-connect {
+    margin: 20px 0px;
+}
+
+/* FACEBOOK */
+
+button.zocial.facebook {
+    background: none;
+    background-image: url(img/facebook.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* TWITTER */
+
+button.zocial.twitter { 
+    background: none;
+    background-image: url(img/twitter.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* LINKEDIN */
+
+button.zocial.linkedin {
+    background: none;
+    background-image: url(img/linkedin.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* INSTAGRAM */
+
+button.zocial.instagram {
+    background: none;
+    background-image: url(img/instagram.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* DONE BTN */
+
+button.done {
+    padding: 10px 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #91d3e2;
+    color: white;
 }
 
 /*SEARCH BAR*/
 
 #search-bar {
     float: right;
-    padding: 0px 30px;
+    padding: 0px;
 }
 
 .search-input {
     margin: 0;
-    width: 350px;
-    padding: 15px 15px;
+    width: 100px;
+    padding: 5px 5px;
     font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
-    font-size: 20px;
+    font-size: 12px;
     color:#666;
     background: #f7f7f7;
-    border:2px solid #158bba; 
+    border:2px solid #333; 
     border-right:0px;
     border-radius: 30px;
 }
 
 .search-btn {
-    width: 40px;
+    width: 20px;
     margin: 0;
     font-family: 'Niveau Grotesk Medium', 'Myriad Pro', sans-serif;
     cursor: pointer;
@@ -45,23 +138,15 @@ header {
 }
 
 #menu-nav {
-    background: #fff;
+    background: #f7f7f7;
     width: 100%;
-    position:fixed;
-    left:0px;
-    bottom:0px;
+    position: fixed;
 }
 
 .row {
     content: "";
     clear: both;
     display: table;
-}
-
-p {
-    font-size: 22px;
-    font-weight: 600;
-    color: #999;
 }
 
 /* FACEBOOK */
@@ -80,11 +165,10 @@ p {
 }
 
 .facebook-post {
-    background: #158bba;
+    background: #3b5998;
     width: 100%;
     padding: 25px;
     height: 550px;
-    margin: 10px 0px;
 }
 
 .facebook-icon {
@@ -116,11 +200,10 @@ h2 {
 }
 
 .twitter-post {
-    background: #158bba;
+    background: #1da1f2;
     width: 100%;
     padding: 25px;
     height: 550px;
-    margin: 10px 0px;
 }
 
 .twitter-icon {
@@ -147,46 +230,8 @@ h2 {
 }
 
 .ad-post {
-    background: #158bba;
+    background: #f7f7f7;
     width: 100%;
     padding: 25px;
     height: 550px;
-    margin: 10px 0px;
 }
-
-/* DROPDOWN MENU */
-
-#posts-order {
-    height: 100px;
-    width: 300px;
-}
-
-.drop-btn {
-    background-color: #fff;
-    color: #333;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.posts-dropdown { 
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    background-color: #f7f7f7;
-    min-width: 150px;
-    border-radius: 20px;
-}
-
-.dropdown-content a {
-    color: #333;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.show {display:block;}
-
