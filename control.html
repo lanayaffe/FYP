@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        
-        <title>FYP - CONTROL UI</title>
-        <link rel="stylesheet" href="style.css">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+		<title>Destination - Sign Up</title>
+
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli">
+        <link rel="stylesheet" type ="text/css" href="style.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <script src="https://use.typekit.net/opd7osq.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <script type="text/javascript" src="header.js"></script>
+		
+		<!-- https://developers.google.com/web/updates/2013/12/300ms-tap-delay-gone-away?hl=en -->
+		<meta name="viewport" content="width=device-width">
+        
         <script type="text/javascript">
         window.onload = function(){ 
             //Get submit button
@@ -22,50 +30,56 @@
             }
         }
         </script>
-        
-    </head>
+
+	</head>
+    
     <body>
         
-        <header style="padding: 20px;">
-            <div id="search-header">
-                <a href="#"><img src="img/logo.png" alt="Destination Logo" width="400px"/></a>
-                <form id="search-bar" method="get" action="#">
-                    <input type="text" class="search-input" size="25" maxlength="120" value="search">
-                    <input type="image" name="submit" src="img/search.png" class="search-btn">
-                </form>
-            </div>
-        </header>
-        
-        <div id="menu-nav" class="row">
-            <div class="col-4">
-                <a href="#"><img src="img/chat.png" alt="chat icon" width="45%"/></a>
-            </div>
-            <div class="col-4">
-                <a href="#"><img src="img/profile.png" alt="profile icon" width="50%"/></a>
-            </div>
-            <div class="col-4">
-                <a href="#"><img src="img/notification.png" alt="notifications icon" width="50%"/></a>
-            </div>
-            <div class="col-4">
-                <a href="#"><img src="img/settings.png" alt="settings icon" width="50%"/></a>
-            </div>
+        <div class="wrap" id="wrap">
+            <header style="padding: 0px;">
+                <div id="search-header">
+                    <a href="#"><img src="img/logo.png" alt="Destination Logo" width="200px"/></a>
+                    <form id="search-bar" method="get" action="#">
+                        <input type="text" class="search-input" size="25" maxlength="120" value="search">
+                        <input type="image" name="submit" src="img/search.png" class="search-btn">
+                    </form>
+                </div>
+            </header>
+
+            <nav id="menu-nav" class="row">
+                <div class="col-4">
+                    <a href="#"><img src="img/chat.png" alt="chat icon" width="45%"/></a>
+                </div>
+                <div class="col-4">
+                    <a href="#"><img src="img/profile.png" alt="profile icon" width="50%"/></a>
+                </div>
+                <div class="col-4">
+                    <a href="#"><img src="img/notification.png" alt="notifications icon" width="50%"/></a>
+                </div>
+                <div class="col-4">
+                    <a href="#"><img src="img/settings.png" alt="settings icon" width="50%"/></a>
+                </div>
+            </nav>
         </div>
+        
     
         <div class="facebook-post">
             <div class="col-1">
-                <img src="img/facebook.png" alt="Facebook icon" width="50px" class="facebook-icon"/>
+                <img src="img/fb.png" alt="Facebook icon" width="50px" class="facebook-icon"/>
                 <h2>Lana Rachel Yaffe</h2>
             </div>
             <div class="col-9 post">
+                <img src="img/fb-post.png" alt="Facebook post" width="100%"/>
             </div>
         </div>
         
         <div class="twitter-post">
             <div class="col-1">
-                <img src="img/twitter.png" alt="Twitter icon" width="50px" class="twitter-icon"/>
+                <img src="img/twit.png" alt="Twitter icon" width="50px" class="twitter-icon"/>
                 <h2>@lanarachelx</h2>
             </div>
             <div class="col-9 post">
+                <img src="img/twitter-post.png" alt="Twitter post" width="100%"/>
             </div>
         </div>
         
@@ -73,6 +87,7 @@
             <div class="col-1">
             </div>
             <div class="col-9 post">
+                <img src="img/advert.png" alt="Advert" width="100%"/>
             </div>
         </div>
         

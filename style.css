@@ -6,6 +6,7 @@
 header {
     height: 50px;
     border-bottom: 2px solid #eee;
+    background: #fff;
 }
 
 #main-content {
@@ -14,6 +15,8 @@ header {
     width: 100%;
     text-align: center;
 }
+
+/* SOCIAL CONNECT */
 
 /* CONNECT BUTTONS */
 
@@ -89,6 +92,8 @@ button.done {
     color: white;
 }
 
+/* END OF SOCIAL CONNECT */
+
 /*SEARCH BAR*/
 
 #search-bar {
@@ -118,17 +123,23 @@ button.done {
 
 /* NAV MENU */
 
+.wrap {
+  width: 100%;
+  height: 120px;
+  overflow: auto;
+  position: relative;
+}
+
 .col-4 {
     width: 25%;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 10px;
     text-align: center;
 }
 
-#menu-nav {
+nav {
     background: #f7f7f7;
     width: 100%;
-    position: fixed;
 }
 
 .row {
@@ -137,7 +148,7 @@ button.done {
     display: table;
 }
 
-/* FACEBOOK */
+/* FACEBOOK POST */
 
 .col-1 {
     width: 22%;
@@ -146,7 +157,7 @@ button.done {
 }
 
 .col-9 {
-    width: 75%;
+    width: 73%;
     display: inline-block;
     text-align: left;
     float: right;
@@ -155,71 +166,67 @@ button.done {
 .facebook-post {
     background: #3b5998;
     width: 100%;
-    padding: 25px;
-    height: 550px;
+    padding: 5px;
+    height: 240px;
 }
 
 .facebook-icon {
-    width: 100px;
+    width: 50px;
 }
 
 h2 {
     color: white;
+    font-size: 14px;
 }
 
 .post {
     background: white;
-    height: 500px;
+    height: 220px;
+    padding: 5px 0px;
 }
 
-/* TWITTER */
-
-.col-1 {
-    width: 22%;
-    display: inline-block;
-    text-align: left;
-}
-
-.col-9 {
-    width: 75%;
-    display: inline-block;
-    text-align: left;
-    float: right;
-}
+/* TWITTER POST */
 
 .twitter-post {
     background: #1da1f2;
     width: 100%;
-    padding: 25px;
-    height: 550px;
+    padding: 5px;
+    height: 250px;
 }
 
 .twitter-icon {
-    width: 100px;
+    width: 50px;
 }
 
-h2 {
-    color: white;
+/* LINKEDIN POST */
+
+.linkedin-post {
+    background: #0077b5;
+    width: 100%;
+    padding: 25px;
+    height: 520px;
 }
 
-/* ADVERTS */
+.linkedin-icon {
+    width: 50px;
+}
+/* INSTAGRAM POST */
 
-.col-1 {
-    width: 22%;
-    display: inline-block;
-    text-align: left;
+.instagram-post {
+    background: #458eff;
+    width: 100%;
+    padding: 25px;
+    height: 520px;
 }
 
-.col-9 {
-    width: 75%;
-    display: inline-block;
-    text-align: left;
-    float: right;
+.instagram-icon {
+    width: 50px;
 }
+/* ADVERTS POST*/
 
 .ad-post {
     background: #f7f7f7;
     width: 100%;
-    padding: 25px;
-    height: 550px;
+    padding: 10px 5px;
+    height: 380px;
 }
