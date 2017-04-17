@@ -28,65 +28,53 @@ header {
 /* FACEBOOK */
 
 button.zocial.facebook {
-    background: none;
-    background-image: url(img/facebook.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    background: #3b5998;
+    width: 250px;
+    height: 50px;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
-    text-indent: 200%;
-    white-space: nowrap;
-    overflow: hidden;
+    color: white;
+    font-size: 16px;
 }
 
 /* TWITTER */
 
 button.zocial.twitter { 
-    background: none;
-    background-image: url(img/twitter.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    background: #1da1f2;
+    width: 250px;
+    height: 50px;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
-    text-indent: 200%;
-    white-space: nowrap;
-    overflow: hidden;
+    color: white;
+    font-size: 16px;
 }
 
 /* LINKEDIN */
 
 button.zocial.linkedin {
-    background: none;
-    background-image: url(img/linkedin.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    background: #0077b5;
+    width: 250px;
+    height: 50px;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
-    text-indent: 200%;
-    white-space: nowrap;
-    overflow: hidden;
+    color: white;
+    font-size: 16px;
 }
 
 /* INSTAGRAM */
 
 button.zocial.instagram {
-    background: none;
-    background-image: url(img/instagram.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    background: #458eff;
+    width: 250px;
+    height: 50px;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
-    text-indent: 200%;
-    white-space: nowrap;
-    overflow: hidden;
+    color: white;
+    font-size: 16px;
 }
 
 /* DONE BTN */
