@@ -32,6 +32,10 @@ header {
 
 button.zocial.facebook {
     background: #3b5998;
+    background-image: url(img/fb.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
     width: 250px;
     height: 50px;
     border: none;
@@ -45,6 +49,10 @@ button.zocial.facebook {
 
 button.zocial.twitter { 
     background: #1da1f2;
+    background-image: url(img/twit.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
     width: 250px;
     height: 50px;
     border: none;
@@ -58,6 +66,10 @@ button.zocial.twitter {
 
 button.zocial.linkedin {
     background: #0077b5;
+    background-image: url(img/linked.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
     width: 250px;
     height: 50px;
     border: none;
@@ -71,6 +83,10 @@ button.zocial.linkedin {
 
 button.zocial.instagram {
     background: #458eff;
+    background-image: url(img/insta.png);
+    background-size: 30px;
+    background-position: 3% 40%;
+    background-repeat: no-repeat;
     width: 250px;
     height: 50px;
     border: none;
@@ -79,20 +95,19 @@ button.zocial.instagram {
     color: white;
     font-size: 16px;
 }
+/* END OF SOCIAL CONNECT */
 
-/* DONE BTN */
+/* BTN */
 
 button {
     padding: 10px 15px;
     border: none;
     font-weight: 600;
-    font-size:16px;
+    font-size: 16px;
     border-radius: 5px;
     background: #91d3e2;
     color: white;
 }
-
-/* END OF SOCIAL CONNECT */
 
 /*SEARCH BAR*/
 
